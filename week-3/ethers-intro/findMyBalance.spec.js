@@ -1,6 +1,6 @@
 const { assert } = require('chai');
 const findMyBalance = require('./findMyBalance');
-const { PRIVATE_KEY, INITIAL_BALANCE } = require('./config');
+const { PRIVATE_KEY, INITIAL_BALANCE } = require('../config');
 
 describe('findMyBalance', () => {
   it('should return an instance of Promise', () => {

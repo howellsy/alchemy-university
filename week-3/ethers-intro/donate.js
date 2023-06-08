@@ -1,5 +1,5 @@
 const { utils, providers, Wallet } = require('ethers');
-const { ganacheProvider } = require('./config');
+const { ganacheProvider } = require('../config');
 
 const provider = new providers.Web3Provider(ganacheProvider);
 
